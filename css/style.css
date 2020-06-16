@@ -1,0 +1,193 @@
+/* General Styles */
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* header */
+
+/* navbar */
+
+.navbar-brand{
+    padding: 0 20px;  
+}
+
+.navbar-expand-lg .navbar-nav li{
+   margin: 0 20px 0 60px; 
+   padding: 0;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus,
+.nav-item .nav-link:active {
+    background-color: #22bb33;
+}
+
+/* section Home */
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.home{
+    height: 750px;
+    background-image: url('../img/re9p2a5tuo131.jpg');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+    margin-top: 50px;
+}
+
+
+/* on centre la class content */
+.home .home-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.home .home-title{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.home .home-desc{
+    color: white;
+    font-size: 18px;
+}
+/* FIN section Home */
+
+/* section vélo */
+
+.section-header{
+    margin-top: 40px;
+}
+
+.section-title {
+    font-size: 40px;
+
+}
+
+.line{
+    width: 400px;
+    height: 4px;
+    margin: auto;
+    background: #888;
+
+}
+
+.line span{
+    display: block;
+    width: 200px;
+    height: 4px;
+    margin: auto;
+    background: #22bb33;
+   
+}
+
+.line p{
+    display: block;
+    padding: 15px 0;
+
+   
+ 
+}
+
+/*intro*/
+#intro{
+    margin: 60px 0 10px 0;
+ 
+ }
+
+ #intro .info h3 {
+     font-size: 25px;
+     font-weight: normal;
+     margin-bottom: 20px;
+
+ }
+
+ #intro .info h3 span{
+     color:#22bb33 ;
+
+ }
+
+
+ #intro .info p{
+     display: block;
+     color: #888;
+  
+     line-height: 1.8;
+
+ }
+
+ #intro img{
+    width: 100%;
+    margin: 0 auto;
+ }
+
+/* velos*/
+
+.service{
+
+    padding-top: 5px;
+}
+
+.service .section-title{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+
+.service .serv{
+    background:white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.service .serv .icon{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+    border-radius: 50%;
+    color: white;
+    background-color:#22bb33 ;
+    margin-bottom: 15px;
+
+}
+
+.service .serv-desc{
+    font-size: 17px;
+    color:#888;
+    margin-bottom: 20px;
+}
+
+ /* sortie carousel */
+ .carousel{
+     margin-top: 50px;
+ }
+ 
+ .sortie{
+     padding-bottom: 10px;
+ }
+
+ /* conctact */
+
+ #form{
+    margin: 50px;
+ 
+ }
